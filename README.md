@@ -1,10 +1,11 @@
-# Varyd utils
+# Utils (js)
+
 An ES6 JavaScript utility library.
 
 ## Installation
 
 ```shell
-$ npm install varyd-utils --save
+npm install @movingobjects/utils-js --save
 ```
 
 ## Usage
@@ -12,21 +13,21 @@ $ npm install varyd-utils --save
 Load entire library.
 
 ```js
-import * as varyd from 'varyd-utils';
+import * as utils from '@movingobjects/utils-js';
 
-let isGoat = varyd.random.boolean(2/3);
+let isGoat = utils.random.boolean(2/3);
 ```
 
 Load individual pieces.
 
 ```js
-import { Range } from 'varyd-utils';
+import { Range } from '@movingobjects/utils-js';
 
 let countRange = new Range(1, 10);
 ```
 
 ```js
-import { getLatin } from 'varyd-utils/text';
+import { getLatin } from '@movingobjects/utils-js/text';
 
 console.log(getLatin(15, true));
 ```

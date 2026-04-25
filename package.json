@@ -1,17 +1,20 @@
 {
-  "name": "varyd-utils",
-  "version": "1.6.2",
+  "name": "@movingobjects/utils-js",
+  "version": "0.1.0",
   "description": "An ES6 JavaScript utility library",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/movingobjects/varyd-utils.git"
+    "url": "git+https://github.com/movingobjects/utils-js.git"
   },
   "author": "Scott Thiessen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/movingobjects/varyd-utils/issues"
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/movingobjects/varyd-utils#readme"
+  "bugs": {
+    "url": "https://github.com/movingobjects/utils-js/issues"
+  },
+  "homepage": "https://github.com/movingobjects/utils-js#readme"
 }
